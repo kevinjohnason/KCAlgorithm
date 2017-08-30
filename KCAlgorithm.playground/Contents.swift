@@ -15,5 +15,11 @@ KCSearching.binarySearch(quickSortArray, begin: 0, end: quickSortArray.count - 1
 var insertArr = [15,11,35,22,55,210,43,99,53,88,54]
 KCSortings.insertionSort(&insertArr)
 
+let testTree = KCTree()
+//testTree.dft()
 
+
+var a = KCStupidHashMap()
+a[5] = 5
+print(a[105])
 
